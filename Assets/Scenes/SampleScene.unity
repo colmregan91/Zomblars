@@ -569,8 +569,8 @@ MonoBehaviour:
   nextPosition: {x: 0, y: 0, z: 0}
   nextRotation: {x: 0, y: 0, z: 0, w: 0}
   rotationPower: 0.5
-  rotationLerp: 0.5
-  speed: 1
+  rotationLerp: -0.5
+  speed: -1
   camera: {fileID: 0}
   followTransform: {fileID: 335396914}
 --- !u!1 &1469072757
