@@ -232,11 +232,6 @@ PrefabInstance:
       objectReference: {fileID: 335396915}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e800c3e854f937f45958cc01e31b4bf0, type: 3}
---- !u!1 &335396914 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 45942693, guid: e800c3e854f937f45958cc01e31b4bf0, type: 3}
-  m_PrefabInstance: {fileID: 62070209}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &335396915 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 45942694, guid: e800c3e854f937f45958cc01e31b4bf0, type: 3}
@@ -552,7 +547,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5566808911946695765, guid: e800c3e854f937f45958cc01e31b4bf0, type: 3}
   m_PrefabInstance: {fileID: 62070209}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1113127973
+--- !u!114 &1113127969
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -561,18 +556,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1113127968}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c23ec4a48494a14783299f4bf82109d, type: 3}
+  m_Script: {fileID: 11500000, guid: ebf73a561029ef64885a955f4e76b21b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aimValue: 0
-  fireValue: 0
-  nextPosition: {x: 0, y: 0, z: 0}
-  nextRotation: {x: 0, y: 0, z: 0, w: 0}
-  rotationPower: 0.5
-  rotationLerp: -0.5
-  speed: -1
-  camera: {fileID: 0}
-  followTransform: {fileID: 335396914}
 --- !u!1 &1469072757
 GameObject:
   m_ObjectHideFlags: 0
